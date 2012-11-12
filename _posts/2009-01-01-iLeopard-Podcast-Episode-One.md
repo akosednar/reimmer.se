@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "iLeopard Podcast Episode One [Archive]"
+title: "[Archive] iLeopard Podcast Episode One"
 categories : 
 - episodes
 tags : [iLeopard, podcast, archive]

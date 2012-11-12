@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "The Internet is A Truck (Pilot) [Archive]"
+title: "[Archive] The Internet is A Truck (Pilot)"
 categories : 
 - episodes
 tags : [irregularramblings, podcast, archive]
