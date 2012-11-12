@@ -1,0 +1,25 @@
+---
+layout: default
+---
+<h1>{{ page.title }}</h1>
+<p class="meta"> {{ page.date | date: "%B %d, %Y" }} </p>
+
+<div id="post">
+{{ content }}
+
+<audio controls="controls">
+  <source src="{{ page.ogg }}" type="audio/ogg">
+  <source src="{{ page.mp3 }}" type="audio/mpeg">
+Your browser does not support the audio element.
+</audio>
+
+</div>
+
+<div id="related">
+  <h4>Related Posts</h4>
+  <ul class="posts">
+    {% for post in site.related_posts limit:3 %}
+    <li><span>{{ post.date | date_to_string }} &raquo;</span> <a href="{{ post.url }}">{{ post.title }}</a></li>
+    {% endfor %}
+  </ul>
+</div>
