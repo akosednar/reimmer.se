@@ -3,7 +3,6 @@ layout: post
 title: "iLeopard Podcast Episode One [Archive]"
 categories : 
 - episodes
-- archives
 tags : [iLeopard, podcast, archive]
 mp3: http://archive.org/download/OlivervonMizeneriLeopardPodcastEpisodeOne/ileopardpodcast1.mp3
 ogg: http://archive.org/download/OlivervonMizeneriLeopardPodcastEpisodeOne/ileopardpodcast1.ogg 
