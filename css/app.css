@@ -4,8 +4,7 @@
    Table of Contents
 -----------------------------------------------------
 :: Shared Styles
-:: Page Name 1
-:: Page Name 2
+:: Home
 */
 
 
@@ -38,6 +37,11 @@
 
 body{
 	border-top: 7px solid #0C84E8;
+}
+a {
+	color: #0C84E8;
+	text-decoration: none;
+	line-height: inherit;
 }
 
 .social{
@@ -90,10 +94,3 @@ margin-top: 0;
 list-style-type: none;
 margin-bottom: 10px;
 }
-
-
-/* -----------------------------------------
-   Page Name 2
------------------------------------------ */
-
-
