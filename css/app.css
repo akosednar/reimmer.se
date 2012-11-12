@@ -58,10 +58,17 @@ h1, h2, h3, h4, h5, h6 {
 	font-size: 45px;
 	color: #333;
 }
+.social a{
+	color: #333;
+}
 
 .sicon{
 	font-family: entypo !important;
 	font-size: 45px;
+	color: #333;
+}
+
+.sicon a{
 	color: #333;
 }
 
