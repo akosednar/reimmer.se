@@ -7,9 +7,8 @@ title: Home
        		<h2><span class="icon">&#127908;</span> Episodes</h2>
         	<ul class="posts">
         		{% for post in site.categories.episodes %}
-     			<li><span>{{ post.date | date_to_string }} &raquo;</span><a href="{{ post.url }}">{{ post.title }}</a></li>
+     			<li><span>{{ post.date | date_to_string }} &raquo;</span> <a href="{{ post.url }}">{{ post.title }}</a></li>
     			{% endfor %}
-        		<li><span>28 Oct 2012 »</span> <a href="#">Post Title</a></li>
         	</ul>
         </div>
         
