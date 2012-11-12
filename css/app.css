@@ -75,6 +75,15 @@ padding: 20px;
 	font-size: 80px;
 	color: #0C84E8 !important;
 }
+.description{
+	background: #f2f2f2;
+	border: solid 1px #e6e6e6;
+	margin: 0 0 22px 0;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-right: 5px !important;
+	padding-left: 5px !important;
+}
 
 
 /* -----------------------------------------
