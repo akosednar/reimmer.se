@@ -43,7 +43,9 @@ a {
 	text-decoration: none;
 	line-height: inherit;
 }
-
+a:hover {
+	color: ##1C84C8;
+}
 .social{
 	font-family: entypo-social !important;
 	font-size: 45px;
