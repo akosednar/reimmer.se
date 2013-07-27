@@ -97,3 +97,17 @@ margin-top: 0;
 list-style-type: none;
 margin-bottom: 10px;
 }
+
+/* List Styling for related */
+#related ul{
+margin-top: 0;
+list-style-type: none;
+margin-bottom: 10px;
+}
+
+#related ul span {
+font-family: 'Lucida Console', 'Andale Mono', monospace;
+color: #aaa;
+padding-right: 5px;
+font-size: 14px;
+}
