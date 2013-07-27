@@ -16,6 +16,10 @@ body{
 	border-top: 7px solid #0C84E8;
 }
 
+h1 {
+font-size: 38px !important;
+}
+
 a {
 	color: #0C84E8;
 	text-decoration: none;
