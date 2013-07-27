@@ -73,8 +73,8 @@ h1, h2, h3, h4, h5, h6 {
 	color: #0C84E8 !important;
 }
 .description{
-	background: #f2f2f2;
-	border: solid 1px #e6e6e6;
+	background: #fff;
+	border: none;
 	margin: 0 0 22px 0;
 	padding-top: 20px;
 	padding-bottom: 20px;
