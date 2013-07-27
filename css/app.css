@@ -29,9 +29,8 @@ a:hover {
 h1, h2, h3, h4, h5, h6 {
 	margin-top: 0px;
 }
-/*
+
 .social{
-	font-family: "entypo-social" !important;
 	font-size: 45px;
 	color: #333;
 }
@@ -40,7 +39,6 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .sicon{
-	font-family: "entypo" !important;
 	font-size: 45px;
 	color: #333;
 }
@@ -48,14 +46,11 @@ h1, h2, h3, h4, h5, h6 {
 .sicon a{
 	color: #333;
 }
-*/
-/*
+
 .icon{
-	font-family: "entypo" !important;
 	font-size: 30px;
 	color: #333;
 }
-*/
 
 .heading {
 	background: none !important;
