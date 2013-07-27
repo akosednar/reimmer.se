@@ -12,30 +12,6 @@
    Shared Styles
 ----------------------------------------- */
 
-@font-face {
-    font-family: 'entypo';
-    src: url('http://reimmer.se/font/entypo.eot');
-    src: url('http://reimmer.se/font/entypo.eot?#iefix') format('embedded-opentype'),
-         url('http://reimmer.se/font/entypo.woff') format('woff'),
-         url('http://reimmer.se/font/entypo.ttf') format('truetype'),
-         url('http://reimmer.se/font/entypo.svg#entypo') format('svg');
-    font-weight: normal;
-    font-style: normal;
-
-}
-
-@font-face {
-    font-family: 'entypo-social';
-    src: url('http://reimmer.se/font/entypo-social.eot');
-    src: url('http://reimmer.se/font/entypo-social.eot?#iefix') format('embedded-opentype'),
-         url('http://reimmer.se/font/entypo-social.woff') format('woff'),
-         url('http://reimmer.se/font/entypo-social.ttf') format('truetype'),
-         url('http://reimmer.se/font/entypo-social.svg#entypo-social') format('svg');
-    font-weight: normal;
-    font-style: normal;
-
-}
-
 body{
 	border-top: 7px solid #0C84E8;
 }
@@ -53,7 +29,7 @@ a:hover {
 h1, h2, h3, h4, h5, h6 {
 	margin-top: 0px;
 }
-
+/*
 .social{
 	font-family: "entypo-social" !important;
 	font-size: 45px;
@@ -72,12 +48,14 @@ h1, h2, h3, h4, h5, h6 {
 .sicon a{
 	color: #333;
 }
-
+*/
+/*
 .icon{
 	font-family: "entypo" !important;
 	font-size: 30px;
 	color: #333;
 }
+*/
 
 .heading {
 	background: none !important;
