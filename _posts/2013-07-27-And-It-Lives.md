@@ -11,5 +11,4 @@ At the moment, I'm planning to go through my huge collection of games on steam a
 
 Anyways, we will see how it all goes!
 
--
-Anthony
+~ Anthony
