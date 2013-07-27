@@ -31,7 +31,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .social{
-	font-size: 45px;
+	font-size: 25px;
 	color: #333;
 }
 .social a{
@@ -39,7 +39,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .sicon{
-	font-size: 45px;
+	font-size: 25px;
 	color: #333;
 }
 
@@ -48,7 +48,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .icon{
-	font-size: 30px;
+	font-size: 20px;
 	color: #333;
 }
 
@@ -60,7 +60,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .heading .icon {
-	font-size: 80px;
+	font-size: 60px;
 	color: #0C84E8 !important;
 }
 .description{
