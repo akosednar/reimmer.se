@@ -14,11 +14,11 @@
 
 @font-face {
     font-family: 'entypo';
-    src: url('/font/entypo.eot');
-    src: url('/font/entypo.eot?#iefix') format('embedded-opentype'),
-         url('/font/entypo.woff') format('woff'),
-         url('/font/entypo.ttf') format('truetype'),
-         url('/font/entypo.svg#entypo') format('svg');
+    src: url('http://reimmer.se/font/entypo.eot');
+    src: url('http://reimmer.se/font/entypo.eot?#iefix') format('embedded-opentype'),
+         url('http://reimmer.se/font/entypo.woff') format('woff'),
+         url('http://reimmer.se/font/entypo.ttf') format('truetype'),
+         url('http://reimmer.se/font/entypo.svg#entypo') format('svg');
     font-weight: normal;
     font-style: normal;
 
@@ -26,11 +26,11 @@
 
 @font-face {
     font-family: 'entypo-social';
-    src: url('/font/entypo-social.eot');
-    src: url('/font/entypo-social.eot?#iefix') format('embedded-opentype'),
-         url('/font/entypo-social.woff') format('woff'),
-         url('/font/entypo-social.ttf') format('truetype'),
-         url('/font/entypo-social.svg#entypo-social') format('svg');
+    src: url('http://reimmer.se/font/entypo-social.eot');
+    src: url('http://reimmer.se/font/entypo-social.eot?#iefix') format('embedded-opentype'),
+         url('http://reimmer.se/font/entypo-social.woff') format('woff'),
+         url('http://reimmer.se/font/entypo-social.ttf') format('truetype'),
+         url('http://reimmer.se/font/entypo-social.svg#entypo-social') format('svg');
     font-weight: normal;
     font-style: normal;
 
@@ -55,7 +55,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .social{
-	font-family: entypo-social !important;
+	font-family: "entypo-social" !important;
 	font-size: 45px;
 	color: #333;
 }
@@ -64,7 +64,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .sicon{
-	font-family: entypo !important;
+	font-family: "entypo" !important;
 	font-size: 45px;
 	color: #333;
 }
@@ -74,16 +74,16 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .icon{
-	font-family: entypo !important;
+	font-family: "entypo" !important;
 	font-size: 30px;
 	color: #333;
 }
 
 .heading {
-background: none !important;
-border: none !important;
-margin: 0 0 22px 0;
-padding: 20px;
+	background: none !important;
+	border: none !important;
+	margin: 0 0 22px 0;
+	padding: 20px;
 }
 
 .heading .icon {
