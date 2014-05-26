@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
 <!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
-<!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+<head><!--[if lt IE 9]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
 <head>
-  <meta charset="utf-8" />
+   <meta charset="UTF-8">
 
   <!-- Set the viewport width to device width for mobile -->
   <meta name="viewport" content="width=device-width" />
@@ -18,8 +18,10 @@
   
   <!-- Included CSS Files (Compressed) -->
   <link rel="stylesheet" href="/css/foundation.min.css?v=1.0">
-  <link rel="stylesheet" href="/css/app.css?v=2.0.0">
-
+  <link rel="stylesheet" href="/css/app.css?v=2.0.5">
+  <link rel="stylesheet" href="/css/fontello.css">
+  <link rel="stylesheet" href="/css/animation.css"><!--[if IE 7]>
+  <link rel="stylesheet" href="/css/fontello-ie7.css"><![endif]-->
   <script src="/js/modernizr.foundation.js?v=1.0"></script>
 </head>
 <body>
@@ -29,7 +31,7 @@
   <div class="row">
     <div class="twelve columns">
       <div class="panel heading">
-        <h1><a href="/">Reimmerse <span class="icon">&#128640;</span></a></h1>
+        <h1><a href="/">Reimmerse <i class="icon icon-rocket"></i></a></h1>
       </div>
     </div>
   </div>
@@ -48,7 +50,7 @@
       	<h5>About</h5>
       	<p>Born from the ashes of previous podcasts, Reimmerse features irregular podcasts and blogs that covers just about anything.</p>
         <h5>Social</h5>
-        <span class="social"><a href="https://github.com/akosednar/">&#62208;</a> <a href="https://twitter.com/akosednar">&#62217;</a></span><span class="sicon"> <a href="http://reimmer.se/atom.xml">&#59194;</a></span>
+        <span class="social"><a href="https://github.com/akosednar/"><i class="icon-github"></i></a> <a href="https://twitter.com/akosednar"><i class="icon-twitter-1"></i></a></span><span class="sicon"> <a href="http://reimmer.se/atom.xml"><i class="icon-rss"></i></a></span>
       </div>
     </div>
 
@@ -76,7 +78,7 @@
       <hr />
       <div class="row">
         <div class="six columns">
-          <p>&copy; Copyright 2012 <a href="http://anthonykosednar.com/" target="_blank">Anthony Kosednar</a></p>
+          <p>&copy; Copyright 2012-<span id="year">2013</span> <a href="http://anthonykosednar.com/" target="_blank">Anthony Kosednar</a></p>
         </div>
         <div class="six columns">
          	<p class="right">Something bottom right?</p>
@@ -91,5 +93,24 @@
   
   <!-- Initialize JS Plugins -->
   <script src="/js/app.js?v=1.0"></script>
+
+  <!-- Updated Copyright Year -->
+  <script type="text/javascript">
+  $(document).ready(function(){
+          $("#year").html(new Date().getFullYear());
+  });
+  </script>
+
+  <!-- Google Analytics -->
+  <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-28077421-2', 'reimmer.se');
+  ga('send', 'pageview');
+
+</script>
 </body>
 </html>
